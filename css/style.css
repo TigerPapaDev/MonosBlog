@@ -253,7 +253,7 @@ a {
 #container .left-col .intrude-less {
   width: 76%;
   text-align: center;
-  margin: 112px auto 0;
+  margin: 40px auto 0;
 }
 #container .mid-col {
   position: absolute;
@@ -493,8 +493,8 @@ a {
   border: 5px solid #fff;
   -webkit-border-radius: 300px;
   border-radius: 300px;
-  width: 128px;
-  height: 128px;
+  width: 200px;
+  height: 200px;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
