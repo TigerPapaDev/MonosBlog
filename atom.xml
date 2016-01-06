@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-01-05T17:16:00.663Z</updated>
+  <updated>2016-01-06T01:29:29.080Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,11 +15,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[Sublim Text3使用]]></title>
+    <title><![CDATA[Sublime Text3使用]]></title>
     <link href="http://yoursite.com/2016/01/06/my-first-blog/"/>
     <id>http://yoursite.com/2016/01/06/my-first-blog/</id>
     <published>2016-01-05T16:26:02.000Z</published>
-    <updated>2016-01-05T17:16:00.663Z</updated>
+    <updated>2016-01-06T01:29:29.080Z</updated>
     <content type="html"><![CDATA[<p>1.按照官方说明，安装package control组件</p>
 <p> 在Console中（Ctrl+~）执行将以下代码</p>
 <p> <code>import urllib.request,os,hashlib; h = &#39;2915d1851351e5ee549c20394736b442&#39; + &#39;8bc59f460fa1548d1514676163dafc88&#39;; pf = &#39;Package Control.sublime-package&#39;; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( &#39;http://packagecontrol.io/&#39; + pf.replace(&#39; &#39;, &#39;%20&#39;)).read(); dh = hashlib.sha256(by).hexdigest(); print(&#39;Error validating download (got %s instead of %s), please try manual install&#39; % (dh, h)) if dh != h else open(os.path.join( ipp, pf), &#39;wb&#39; ).write(by)</code></p>
