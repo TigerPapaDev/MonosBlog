@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-01-11T15:37:12.952Z</updated>
+  <updated>2016-01-11T15:42:34.302Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,16 +19,13 @@
     <link href="http://yoursite.com/2016/01/11/one-line-of-nodejs/"/>
     <id>http://yoursite.com/2016/01/11/one-line-of-nodejs/</id>
     <published>2016-01-11T15:30:57.000Z</published>
-    <updated>2016-01-11T15:37:12.952Z</updated>
-    <content type="html"><![CDATA[<p>##Nodejs、Express、MongoDB一句话</p>
-<ol>
+    <updated>2016-01-11T15:42:34.302Z</updated>
+    <content type="html"><![CDATA[<h1 id="Nodejs_u3001Express_u3001MongoDB_u4E00_u53E5_u8BDD"><a href="#Nodejs_u3001Express_u3001MongoDB_u4E00_u53E5_u8BDD" class="headerlink" title="Nodejs、Express、MongoDB一句话"></a>Nodejs、Express、MongoDB一句话</h1><ol>
 <li>新版MongoDB在npm安装时有时会提示<code>npm WARN EPEERINVALID mongodb-core@1.2.21 requires a peer of kerberos@~0.0 but none was installed.</code>,只需安装kerberos即可<code>npm install --save kerberos</code></li>
 </ol>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>##Nodejs、Express、MongoDB一句话</p>
-<ol>
-<li>新版MongoDB在npm安装时有时会提示<code>npm WARN EPEERINVALID mongodb-core@1.2.21 requires a peer of kerberos]]>
+    <![CDATA[<h1 id="Nodejs_u3001Express_u3001MongoDB_u4E00_u53E5_u8BDD"><a href="#Nodejs_u3001Express_u3001MongoDB_u4E00_u53E5_u8BDD" class="headerlink"]]>
     </summary>
     
       <category term="一句话汇总" scheme="http://yoursite.com/tags/%E4%B8%80%E5%8F%A5%E8%AF%9D%E6%B1%87%E6%80%BB/"/>
