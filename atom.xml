@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-01-06T01:29:29.080Z</updated>
+  <updated>2016-01-11T15:37:12.952Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,15 +15,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[one-line-of-nodejs]]></title>
+    <link href="http://yoursite.com/2016/01/11/one-line-of-nodejs/"/>
+    <id>http://yoursite.com/2016/01/11/one-line-of-nodejs/</id>
+    <published>2016-01-11T15:30:57.000Z</published>
+    <updated>2016-01-11T15:37:12.952Z</updated>
+    <content type="html"><![CDATA[<p>##Nodejs、Express、MongoDB一句话</p>
+<ol>
+<li>新版MongoDB在npm安装时有时会提示<code>npm WARN EPEERINVALID mongodb-core@1.2.21 requires a peer of kerberos@~0.0 but none was installed.</code>,只需安装kerberos即可<code>npm install --save kerberos</code></li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>##Nodejs、Express、MongoDB一句话</p>
+<ol>
+<li>新版MongoDB在npm安装时有时会提示<code>npm WARN EPEERINVALID mongodb-core@1.2.21 requires a peer of kerberos]]>
+    </summary>
+    
+      <category term="一句话汇总" scheme="http://yoursite.com/tags/%E4%B8%80%E5%8F%A5%E8%AF%9D%E6%B1%87%E6%80%BB/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Sublime Text3使用]]></title>
     <link href="http://yoursite.com/2016/01/06/my-first-blog/"/>
     <id>http://yoursite.com/2016/01/06/my-first-blog/</id>
     <published>2016-01-05T16:26:02.000Z</published>
-    <updated>2016-01-06T01:29:29.080Z</updated>
-    <content type="html"><![CDATA[<p>1.按照官方说明，安装package control组件</p>
-<p> 在Console中（Ctrl+~）执行将以下代码</p>
-<p> <code>import urllib.request,os,hashlib; h = &#39;2915d1851351e5ee549c20394736b442&#39; + &#39;8bc59f460fa1548d1514676163dafc88&#39;; pf = &#39;Package Control.sublime-package&#39;; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( &#39;http://packagecontrol.io/&#39; + pf.replace(&#39; &#39;, &#39;%20&#39;)).read(); dh = hashlib.sha256(by).hexdigest(); print(&#39;Error validating download (got %s instead of %s), please try manual install&#39; % (dh, h)) if dh != h else open(os.path.join( ipp, pf), &#39;wb&#39; ).write(by)</code></p>
-<p>以上安装了package Controller2组件，接下来一个个安装常用插件（Ctrl+Shiht+p）打开控制台，选择package-install，输入相应的插件名称即可<br>需要安装的插件：</p>
+    <updated>2016-01-08T03:18:52.585Z</updated>
+    <content type="html"><![CDATA[<p>1.按照官方说明，安装package control组件<br>在Console中（Ctrl+~）执行将以下代码</p>
+<pre><code>import urllib.request,os,hashlib; h = &apos;2915d1851351e5ee549c20394736b442&apos; + &apos;8bc59f460fa1548d1514676163dafc88&apos;; pf = &apos;Package Control.sublime-package&apos;; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( &apos;http://packagecontrol.io/&apos; + pf.replace(&apos; &apos;, &apos;%20&apos;)).read(); dh = hashlib.sha256(by).hexdigest(); print(&apos;Error validating download (got %s instead of %s), please try manual install&apos; % (dh, h)) if dh != h else open(os.path.join( ipp, pf), &apos;wb&apos; ).write(by)
+</code></pre><p>以上安装了package Controller2组件，接下来一个个安装常用插件（Ctrl+Shiht+p）打开控制台，选择package-install，输入相应的插件名称即可<br>需要安装的插件：</p>
 <ul>
 <li>Emmet</li>
 <li>anugularjs</li>
@@ -32,13 +52,13 @@
 </ul>
 <p>2.SideBarEnhancements</p>
 <p>此插件是增强版的sidebar，可方便使用不同浏览器调试。安装完成后在keybinding-user里输入</p>
-<p><code>[{ &quot;keys&quot;: [&quot;f12&quot;], &quot;command&quot;: &quot;side_bar_files_open_with&quot;,
-            &quot;args&quot;: {
-                &quot;paths&quot;: [],
-                &quot;application&quot;: &quot;C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe&quot;,
-                &quot;extensions&quot;:&quot;.*&quot; //any file with extension
-            }}]</code></p>
-<p>即可用F12键在Chrome中调试Html</p>
+<pre><code>[{ &quot;keys&quot;: [&quot;f12&quot;], &quot;command&quot;: &quot;side_bar_files_open_with&quot;,
+        &quot;args&quot;: {
+            &quot;paths&quot;: [],
+            &quot;application&quot;: &quot;C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe&quot;,
+            &quot;extensions&quot;:&quot;.*&quot; //any file with extension
+        }}]
+</code></pre><p>即可用F12键在Chrome中调试Html</p>
 <p>3.Emmet</p>
 <p>  这个就是传说中的Zencoding，具有代码一键补齐功能</p>
 <p>4.html文件一键补齐（现将文件保存为html后缀文件）</p>
@@ -59,9 +79,8 @@
 <p><a href="http://www.sublimetext.com/" target="_blank" rel="external">sublim官网</a></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>1.按照官方说明，安装package control组件</p>
-<p> 在Console中（Ctrl+~）执行将以下代码</p>
-<p> <code>import urllib.request,os,hashlib; h = &#39;2915d1851351e5ee54]]>
+    <![CDATA[<p>1.按照官方说明，安装package control组件<br>在Console中（Ctrl+~）执行将以下代码</p>
+<pre><code>import urllib.request,os,hashlib; h = &apos;2915d1851351e5ee549c2]]>
     </summary>
     
       <category term="Sublime" scheme="http://yoursite.com/tags/Sublime/"/>
